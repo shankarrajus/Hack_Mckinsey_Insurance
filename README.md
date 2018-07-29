@@ -58,10 +58,10 @@ Various new fields are derived:
 ## What did not worked
 
 * Filling the missing underwrite_score based on premium bands
-* Scaled amount, premium fields
-* Age, premium bands 
+* Many derived fields reduced the AUC score
 * Ensembling of Logistic Regression and Random Forest did not provide much boost
 * Optimizing the incentive calculation based on public LB score resulted in overfitting
+* SMOTE oversampling, lead to serious overfitting.
 
 ## I wanted to try but could not
 
